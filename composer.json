@@ -1,0 +1,33 @@
+{
+    "name": "se7enxweb/nxc_saferpay",
+    "description": "Exponential extension that takes card payments through the Saferpay Hosting interface of SIX Payment Services: it creates the payment link, verifies and captures the payment when Saferpay notifies the site, approves the shop order's payment, and lists every transaction with its log in a SaferPay tab in the administration interface.",
+    "keywords": [ "exponential", "exponential-legacy", "legacy-extension", "saferpay", "six payment services", "payment", "payment gateway", "shop", "e-commerce" ],
+    "homepage": "https://github.com/se7enxweb/nxc_saferpay",
+    "support": {
+        "issues": "https://github.com/se7enxweb/nxc_saferpay/issues",
+        "source": "https://github.com/se7enxweb/nxc_saferpay"
+    },
+    "type": "ezpublish-legacy-extension",
+    "authors": [
+        {
+            "name": "Serhey Dolgushev",
+            "role": "Original author (NXC, 2010)"
+        },
+        {
+            "name": "7x",
+            "homepage": "https://se7enx.com",
+            "email": "info@se7enx.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "se7enxweb/exponential-legacy-installer": "*"
+    },
+    "extra": {
+        "installer-name": "nxc_saferpay",
+        "ezpublish-legacy-extension-name": "nxc_saferpay"
+    }
+}

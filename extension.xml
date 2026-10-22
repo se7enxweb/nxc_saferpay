@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>NXC SaferPay Payment Gateway</name>
+        <version>1.0.0</version>
+        <copyright>Copyright (C) 2010 NXC Consulting; 2026 7x</copyright>
+        <license>Not stated by the original authors (see README.md)</license>
+        <info_url>https://github.com/se7enxweb/nxc_saferpay</info_url>
+    </metadata>
+</software>
