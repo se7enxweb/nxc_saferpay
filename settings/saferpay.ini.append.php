@@ -7,7 +7,7 @@ URL=https://www.saferpay.com/hosting/
 [LocalShopSettings]
 # Gateway type, possbile values are: "curl" or "file"
 GatewayType=curl
-# The merchant’s Saferpay account number. Example: 99867-94913159
+# The merchantâ€™s Saferpay account number. Example: 99867-94913159
 AccountId=99867-94913159
 # 3-digit currency code. Example: EUR, USD, GBP, CHF, JPY, etc
 Currency=EUR
@@ -20,7 +20,7 @@ RequestCardholderName=yes
 Delivery=no
 # Email address of the merchant. MSaferpay sends a notification message after a
 # successful purchase. Yo can leave this option empty to don`t send emails
-MerchantNotifyEmail=sd@nxc.com.ua
+MerchantNotifyEmail=
 # Must be set to "yes" or "no". If set to "yes" saferpay sends a notification
 # to the customer message after a successful purchase.
 UserNotifyEmail=yes
@@ -28,8 +28,8 @@ UserNotifyEmail=yes
 # automatically to SUCCESSLINK. Set it "no" for use defaults
 Autoclose=no
 # Use this parameter to show the customer specific payment methods. It must
-# contain a comma delimited list of provider id’s. A current list of provider
-# id’s can be found here: http://www.saferpay.com/help/ProviderTable.asp. Set
+# contain a comma delimited list of provider idâ€™s. A current list of provider
+# idâ€™s can be found here: http://www.saferpay.com/help/ProviderTable.asp. Set
 # it "no" for use defaults
 ProviderSet=no
 # Specifies the language for the Virtual Terminal session. Possible values are
@@ -68,7 +68,7 @@ BodyFontColor=
 # The font color of the head.
 HeadFontColor=
 # The font color of the menu.
-MenuFontColor==
+MenuFontColor=
 # Defines the font-face used in the VT.
 Font=
 */ ?>
